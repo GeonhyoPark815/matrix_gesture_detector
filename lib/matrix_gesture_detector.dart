@@ -119,7 +119,7 @@ class _MatrixGestureDetectorState extends State<MatrixGestureDetector> {
   Matrix4 scaleDeltaMatrix = Matrix4.identity();
   Matrix4 rotationDeltaMatrix = Matrix4.identity();
   // Matrix4 matrix = Matrix4.identity();
-  Matrix4 matrix = initMatrix;
+  Matrix4 matrix = widget.initMatrix;
 
   @override
   Widget build(BuildContext context) {
